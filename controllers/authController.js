@@ -6,7 +6,7 @@ const nodemailer = require("nodemailer");
 
 // Configuración del transporter de nodemailer para Hostinger
 const transporter = nodemailer.createTransport({
-  host: "smtp.hostinger.com",
+  host: "smtp.tumailer.com",
   port: 465,
   secure: true, // true para puerto 465
   auth: {

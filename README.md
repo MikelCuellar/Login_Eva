@@ -9,7 +9,7 @@ Este proyecto implementa un sistema de login seguro utilizando Node.js, Express 
 ### 1. Cifrado de Contraseñas
 
 - Utilizamos Argon2 para el cifrado de contraseñas
-- Argon2 es un ganador del Password Hashing Competition y ofrece:
+- Argon2 es un potente player del Password Hashing y ofrece:
   - Resistencia a ataques de fuerza bruta
   - Protección contra ataques de GPU
   - Adaptabilidad a hardware futuro
@@ -81,7 +81,7 @@ Login_Eva/
 1. **Clonar el Repositorio**
 
    ```bash
-   git clone [URL_DEL_REPOSITORIO]
+   git clone https://github.com/MikelCuellar/Login_Eva.git
    cd Login_Eva
    ```
 
@@ -117,7 +117,7 @@ Login_Eva/
 
 5. **Configurar Correo Electrónico**
 
-   - Usar una cuenta de Hostinger
+   - Usar una cuenta de correo (yo use Hostinger)
    - Configurar las credenciales en `.env`
    - El servidor SMTP ya está configurado para Hostinger
 
@@ -151,9 +151,7 @@ Login_Eva/
 1. **JWT_SECRET**
 
    - Debe ser una cadena aleatoria de al menos 32 caracteres
-   - No compartir en repositorios públicos
-   - Cambiar en producción
-
+   
 2. **Base de Datos**
 
    - Usar contraseñas fuertes
